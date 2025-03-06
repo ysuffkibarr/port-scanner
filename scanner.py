@@ -12,11 +12,11 @@ os.system("apt-get install pyfiglet")
 ascii_banner = pyfiglet.figlet_format("PORT SCANNER")
 print(ascii_banner)
 print("""
-----------------------------------
-|Developer: ysufkibar / cybreex  |
-----------------------------------
-|Instagram: @ysufkibar / @cybreex|
-----------------------------------
+------------------------
+|Developer: ysufkibar  |
+------------------------
+|Instagram: @ysufkibar |
+------------------------
 """)
 site = input("Target: ")
 target = socket.gethostbyname(site)
